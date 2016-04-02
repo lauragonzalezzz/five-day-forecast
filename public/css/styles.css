@@ -1,3 +1,30 @@
-header{
-  font-size: 55px;
+body{
+  background-color: powderblue;
 }
+
+header{
+  font-family: 'Dosis', sans-serif;
+  font-size: 55px;
+  display: block;
+  width: 25%;
+  margin: 0 auto;
+}
+
+#container{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cardObj{
+  border: 1px solid black;
+  margin: 10px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  background-color: oldlace;
+  padding: 1%;
+
+}
+
